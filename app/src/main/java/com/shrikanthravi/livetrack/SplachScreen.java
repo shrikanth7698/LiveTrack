@@ -26,7 +26,7 @@ public class SplachScreen extends AppCompatActivity {
             public void run() {
                 bus_icon.startAnimation(animation);
             }
-        }, 200);
+        }, 300);
 
         final Handler handler1 = new Handler();
         handler1.postDelayed(new Runnable() {
@@ -37,7 +37,7 @@ public class SplachScreen extends AppCompatActivity {
                 startActivity(main);
                 SplachScreen.this.overridePendingTransition(R.anim.fadein, R.anim.fadeout);
             }
-        }, 1700);
+        }, 2300);
 
     }
 }
